@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    transition-duration: 0.3s;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    color: #DDD;
+}
+
+/* BANNER */
+
+#banner {
+    background-color: #FFF;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#logo {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+.menubar {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    font-family: "nav-font", Verdana, sans-serif;
+}
+
+.menubar a {
+    display: inline-block;
+    padding: 10px;
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menubar a:hover {
+    color: #FE642E;
+}
+
+/***** RESPONSIVE DESIGN *****/
+
+@media (max-width: 914px) {
+    #container {
+        width: 87.5%;
+    }
+    .menubar {
+        font-size: 16px;
+    }
+
+/* FONTS */
+
+@font-face {
+    font-family: "nav-font";
+    src: url(../fonts/FingerPaint-Regular.ttf);
+}
