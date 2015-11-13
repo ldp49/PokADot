@@ -35,9 +35,9 @@
 .menubar {
     display: block;
     width: 100%;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
-    font-family: "nav-font", Verdana, sans-serif;
+    font-family: "head-font", Verdana, sans-serif;
 }
 
 .menubar a {
@@ -61,10 +61,16 @@
     .menubar {
         font-size: 16px;
     }
+}
 
 /* FONTS */
 
 @font-face {
-    font-family: "nav-font";
-    src: url(../fonts/FingerPaint-Regular.ttf);
+    font-family: "head-font";
+    src: url(../fonts/Flux_Architect_Regular.ttf);
+}
+
+@font-face {
+    font-family: "body-font";
+    src: url(../fonts/whitehall.ttf);
 }
