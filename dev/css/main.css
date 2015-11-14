@@ -2,18 +2,12 @@
     margin: 0px;
     padding: 0px;
 
-    box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-
     transition-duration: 0.3s;
 }
 
 #container {
     width: 800px;
     margin: 0 auto;
-    color: #DDD;
 }
 
 /* BANNER */
@@ -21,7 +15,7 @@
 #banner {
     background-color: #FFF;
     width: 100%;
-    margin-top: 10px;
+    padding: 20px 0;
 }
 
 #logo {
@@ -35,21 +29,72 @@
 .menubar {
     display: block;
     width: 100%;
-    font-size: 22px;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    /*line-height: 30px;*/
+    font-size: 24px;
     text-align: center;
-    font-family: "head-font", Verdana, sans-serif;
+    font-family: head-font, Verdana, sans-serif;
+    border-bottom: 3px solid #FE642E;
+    border-radius: 1px;
 }
 
 .menubar a {
     display: inline-block;
-    padding: 10px;
-    color: #222;
+    margin: 0 5px;
+    padding: 0 5px;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
+}
+.menubar a.selected {
+    border-bottom: 1px solid #FE642E;
 }
 
 .menubar a:hover {
     color: #FE642E;
+    /*text-decoration: underline;*/
+    /*border-bottom: 1px solid #FE642E;*/
+}
+
+/* CONTENT */
+
+#contentpane {
+    width: 100%;
+    margin-top: -10px;
+}
+
+#pagetitle {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    display: inline-block;
+    width: 100%;
+    font-family: head-font;
+    text-align: left;
+}
+h2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-family: Georgia, serif;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.indent {
+    width: 95%;
+    margin-left: 5%;
 }
 
 /***** RESPONSIVE DESIGN *****/
@@ -57,20 +102,21 @@
 @media (max-width: 914px) {
     #container {
         width: 87.5%;
+        /*font-size: smaller;*/
     }
     .menubar {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
 /* FONTS */
 
 @font-face {
-    font-family: "head-font";
+    font-family: head-font;
     src: url(../fonts/Flux_Architect_Regular.ttf);
 }
 
 @font-face {
-    font-family: "body-font";
+    font-family: body-font;
     src: url(../fonts/whitehall.ttf);
 }
