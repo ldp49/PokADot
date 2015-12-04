@@ -107,7 +107,7 @@ p, ul {
 
 /* GALLERY */
 
-.picture-triple {
+img.picture-triple {
     display: block;
     width: 100%;
     border-radius: 5px;
@@ -185,6 +185,14 @@ p, ul {
     }
     .menubar {
         font-size: 18px;
+    }
+    .picture-triple-container {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0);
     }
 }
 

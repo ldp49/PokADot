@@ -11,22 +11,24 @@
         <?php $current=2; include "../components/banner_and_nav.php"; ?>
 
         <div id="contentpane">
-
-            <h2>Parties and Events</h2>
-            <ul class="indent">
-                <li>Birthday Parties for kids and adults</li>
-                <li>Bridal Showers and Bachelorette Parties</li>
-                <li>Parents’ Night Out</li>
-                <li>Playgroup Outings</li>
-            </ul>
-
-            <h2>Personalized Gifts</h2>
-            <ul class="indent">
-                <li>Weddings</li>
-                <li>Anniversaries</li>
-                <li>Birthdays</li>
-                <li>Teacher's Gifts</li>
-            </ul>
+            <div class="section">
+                <h2>Parties and Events</h2>
+                <ul class="indent">
+                    <li>Birthday Parties for kids and adults</li>
+                    <li>Bridal Showers and Bachelorette Parties</li>
+                    <li>Parents’ Night Out</li>
+                    <li>Playgroup Outings</li>
+                </ul>
+            </div><!-- parties and events section -->
+            <div class="section">
+                <h2>Personalized Gifts</h2>
+                <ul class="indent">
+                    <li>Weddings</li>
+                    <li>Anniversaries</li>
+                    <li>Birthdays</li>
+                    <li>Teacher's Gifts</li>
+                </ul>
+            </div><!-- personalized gifts section -->
 
         </div><!-- content pane -->
 

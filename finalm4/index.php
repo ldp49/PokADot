@@ -33,7 +33,22 @@
             <h2>Who We Are</h2>
             <div class="indent">
                 <h4>Cathy</h4><br>
-                <p class="indent">...</p>
+                <div class="indent">
+                    <p class="line-after">
+                        Cathy is a lifelong art educator.
+                    </p>
+                    <p class="line-after">
+                        Both in and out of the classoom,
+                        she has spent her afult life helping
+                        children and adults find paths for creative
+                        expression.
+                    </p>
+                    <p>
+                        Educated at the middlebury college and the
+                        Massachusetts college of art, she brings her energy
+                        to the studio every day.
+                    </p>
+                </div>
                 <h4>Leigh</h4><br>
                 <div class="indent">
                     <p class="line-after">
@@ -66,7 +81,7 @@
                         through story time and the art activities she created around
                         those stories.
                     </p>
-                    <p class="line-after">
+                    <p>
                         Now she is looking forward to bringing her creative energy
                         to your community!
                     </p>

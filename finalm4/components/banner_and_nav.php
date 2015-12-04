@@ -8,7 +8,7 @@ $classes[$current] = 'class="selected" ';
 echo '<!-- banner -->
         <div id="banner">
             <a href="' . $path_to_root . 'index.php">
-                <img id="logo" src="' . $path_to_root . 'images/logo.jpg" alt="Pok-A-Dot logo">
+                <img id="logo" src="' . $path_to_root . 'images/logo.png" alt="Pok-A-Dot logo">
             </a>
         </div><!-- banner div -->
 
