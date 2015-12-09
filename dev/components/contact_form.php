@@ -29,7 +29,7 @@
     if ($submitted and $all_valid) {
         $to = "fjt37@cornell.edu";
         $subject = "POKADOT customer contact: " . $_POST['name'] . " [" . $_POST['subject'] . "]";
-        $message = "From " . $_POST['name'] . " <" . $_POST['email'] . ">:\n--------------------------\n\n"  . $_POST['msg'];
+        $message = "From " . $_POST['name'] . " <" . $_POST['email'] . ">\n--------------------------\n\n"  . $_POST['msg'];
         mail($to, $subject, $message);
         echo '<p class="line-after">
                     Thank you, ' . $_POST["name"] . ', for sending us a message!
@@ -50,7 +50,7 @@
                 if ($_POST[$field] != $initial_values[$field])
                     $soft_text[$field] = "";
 
-        echo '<form id="contact-form" class="form" method="post" action="../pages/contactus.php" class="indent">
+        echo '<form id="contact-form" class="form" method="post" action="../pages/contactus.php#contact-form" class="indent">
                     <div class="soft-text">All fields required.</div>
                     <input id="name" class="short-text' . $valid["name"] . $soft_text["name"] . '" type="text" name="name" title="' . $initial_values["name"] . '" value="' . $values["name"] . '">
                     <input id="email" class="short-text' . $valid["email"] . $soft_text["email"] . '" type="text" name="email" title="' . $initial_values["email"] . '" value="' . $values["email"] . '">
