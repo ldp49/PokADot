@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Pok-A-Dot Contact Us</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
     <div id="container">
@@ -27,9 +28,18 @@
                 <p class="indent">978-318-3999</p>
             </div><!-- phone number section -->
 
+            <div class="section">
+                <h2>Direct Message</h2>
+                <div class="indent">
+                    <?php include "../components/contact_form.php" ?>
+                </div>
+            </div>
+
         </div><!-- content pane -->
 
     </div><!-- container -->
+
+    <script type="text/javascript" src="../js/form_fields.js"></script>
 
 </body>
 </html>

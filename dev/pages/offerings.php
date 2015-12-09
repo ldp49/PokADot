@@ -54,7 +54,7 @@
 
     </div><!-- container -->
 
-    <script src="../js/picture-popout.js"></script>
+    <script type="text/javascript" src="../js/picture_popout.js"></script>
 
 </body>
 </html>
